@@ -18,7 +18,7 @@ contacts.each do |person, data|
 
   data.each do |attribute, value|
     attribute == :favorite_icecream_flavors
-   if [:favorite_icecream_flavors].include?(strawberry)
+   if [:favorite_icecream_flavors].include?(value == strawberry)
 end
 end
 end
